@@ -1,0 +1,11 @@
+@use '../../App.scss' as * ;
+
+.modal-button-styles-lay-out{
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+.modal-button-styles-lay-out{
+    font-family:$font-roboto;
+}

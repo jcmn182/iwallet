@@ -1,0 +1,32 @@
+@use '../../App.scss' as * ;
+
+.opciones-styles-menu{
+    display:flex;
+    justify-content:center;
+    font-family:$font-roboto;
+    width: 100%;
+}
+
+.opciones-styles-menu a {
+    text-decoration: none; 
+  }
+
+.opciones-styles-inactive{
+    color:#000000;
+    font-size:$size-text-s4;
+    margin: 7vh 4vh;
+}
+
+.opciones-styles-active{
+    color:#f53900ec;
+    font-size:$size-text-s4;
+    margin: 7vh 4vh;
+}
+
+@media  (max-width:1000px) {
+    .opciones-styles-inactive,
+    .opciones-styles-active{
+        font-size:$size-text-sx;
+        margin: 6vh 4vh;
+    }
+}

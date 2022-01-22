@@ -1,0 +1,43 @@
+// imports
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+// colors
+$background-color-primary: #006EC1;
+$text-color-light: #FBFCFC;
+// fonts-familys
+$font-roboto:'Roboto', sans-serif;
+//font-size
+$size-text-sx:2vh;
+$size-text-s:2.5vh;
+$size-text-s1:3vh;
+$size-text-s2:3.5vh;
+$size-text-s3:4vh;
+$size-text-s4:4.5vh;
+$size-text-m:5vh;
+
+//mixins
+@mixin btn {
+    border: none; 
+    color: white; 
+    padding: 10px 28px; 
+    cursor: pointer;
+ }
+
+ @mixin btn-default {
+     background-color:"#000000";
+ }
+
+//classes 
+
+.btn{
+    @include btn;
+}
+
+.btn-primary{
+    background-color:$background-color-primary;
+}
+
+.btn-default{
+    background-color:$text-color-light;
+    color:$background-color-primary
+}
+

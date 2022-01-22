@@ -1,0 +1,9 @@
+@use '../../App.scss' as * ;
+
+.listas-styles-laylout{
+    display:flex;
+    justify-content:center;
+    font-family: $font-roboto;
+    height: 40vh;
+    width:100%;
+}

@@ -1,0 +1,26 @@
+@use '../../App.scss' as * ;
+
+.navbar-styles-nav{
+    background-color: $background-color-primary;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color:$text-color-light;
+    font-size: $size-text-m;
+    font-family: $font-roboto;
+    padding: 10px 30px 10px 30px;
+}
+
+.navbar-styles-text-size-s{
+    font-size:$size-text-s1;
+}
+
+@media (max-width: 1000px){
+    .navbar-styles-text-size-s{
+        font-size:$size-text-sx;
+    }
+    .navbar-styles-nav{
+        font-size:$size-text-sx;
+    }
+    
+}
