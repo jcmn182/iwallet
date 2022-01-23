@@ -17,7 +17,7 @@ function App() {
     <Navbar/>
     <Opciones/>
     <Routes>
-      <Route path="/movimientos" element={<Movimientos/>} />
+      <Route path="/" element={<Movimientos/>} />
       <Route path="/ingresos" element={<Ingreso/>} />
       <Route path="/retiros" element={<Gasto/>} />
     </Routes>

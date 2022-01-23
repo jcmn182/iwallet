@@ -54,6 +54,8 @@
     padding:5vh;
   }
 
+  
+
   .modal-list-styles-inputs{ 
     border: none none 1px none;
     padding:1vh;
@@ -91,6 +93,11 @@
   margin-top: 20px;
 }
 
+.modal-list-styles-show-error{
+  color: red;
+  margin-top:25px
+}
+
 .modal-list-styles-modal-content-animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
@@ -105,3 +112,16 @@
     from {transform: scale(0)}
     to {transform: scale(1)}
   }
+
+  @media (max-width:1000px){
+    .modal-list-styles-modal-content{
+      width: 95%;
+    }
+    .listas-styles-laylout{    
+        width:75%;
+    }
+    .modal-list-styles-inactive,
+    .modal-list-styles-active{
+      font-size:$size-text-sx;
+  }
+}

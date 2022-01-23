@@ -1,9 +1,26 @@
 @use '../../App.scss' as * ;
 
-.listas-styles-laylout{
+.listas-styles-laylout{    
+    justify-content:center;
+    flex-direction: column;
+    font-family: $font-roboto;
+    height: 55vh;
+    overflow-y:scroll;
+    width:25%;
+}
+
+.istas-styles-container{
     display:flex;
     justify-content:center;
-    font-family: $font-roboto;
-    height: 40vh;
-    width:100%;
+}
+
+.listas-styles-ul{
+    background-color: #F4F6F7;
+    margin:10px
+}
+
+@media (max-width:1000px){
+    .listas-styles-laylout{    
+        width:75%;
+    }
 }

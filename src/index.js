@@ -5,12 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // react router
 import { BrowserRouter} from "react-router-dom";
+//context 
+import  StateAction  from './context/state.actions.js'
 
 ReactDOM.render(
   <React.StrictMode>
+    <StateAction>
     <BrowserRouter>
       <App />
     </BrowserRouter> 
+    </StateAction>
   </React.StrictMode>,
   document.getElementById('root')
 );

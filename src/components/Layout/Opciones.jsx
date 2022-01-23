@@ -8,7 +8,7 @@ export const Opciones = () => {
         <div className="opciones-styles-menu">
             <NavLink 
             className={({ isActive }) => (isActive ? 'opciones-styles-active' : 'opciones-styles-inactive')} 
-            to="/movimientos"> Todos </NavLink>
+            to="/"> Todos </NavLink>
             <NavLink
             className={({ isActive }) => (isActive ? 'opciones-styles-active' : 'opciones-styles-inactive')} 
              to="/ingresos">Ingresos</NavLink>
